@@ -13,12 +13,22 @@ body{
     font: normal 16px Arial,Helvetica,sans-serif;
 
     line-height: 1.6em;
-    margin:0;
+    margin:0%;
 }
 
 .container{
     width: 80%;
     margin: auto;
+}
+
+.button{
+    background-color: #333;
+    color:#fff;
+    padding :10px 15px;
+    border:none;
+} 
+.clr{
+    clear:both;
 }
 
 .box-1{
@@ -90,4 +100,72 @@ a:visited{
 .categories li{
     padding-bottom:6px;
     border-bottom:dotted 1px #333;
+}
+
+.my-form{
+    padding:20px;
+}
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display:block
+}
+
+.my-form input[type = 'text'],.my-form textarea{
+    padding :8px;
+    width: 100%;
+}
+
+.block{
+    float:left;
+    width: 33.3%;
+    border:1px solid #ccc;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+#main-blcok{
+    float:left;
+    width:70%;
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    background-color: #333;
+    color:#fff;
+    padding:15px;
+    box-sizing:border-box;
+}
+
+.p-box{
+    width:800px;
+    height:500px;
+    border:1px solid #000;
+    margin-top:30px;
+    position:relative;
+    background-image: url('../img/test.jpg');
+    background-repeat:no-repeat;
+
+}
+
+.p-box h1{
+    position: absolute;
+    top:40px;
+    left: 200px;
+}
+
+.fix-me{
+    position: fixed;
+    top:400px;
+}
+
+.mylist li:first-child{
+    background: red;
+}
+
+.mylist li:last-child{
+    background: yellow;
 }
